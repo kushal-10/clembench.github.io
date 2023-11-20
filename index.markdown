@@ -12,17 +12,16 @@ date:   2023-11-02 18:00:23 +0100
 categories: jekyll update -->
 
 
-# clembench: A Framework for the Systematic Evaluation of Chat-Optimized Language Models as Conversational Agents
+# clembench: Systematic Evaluation of Chat-Optimized Language Models as Conversational Agents
 
 > Chalamalasetti, K., Götze, J., Hakimov, S., Madureira, B., Sadler, P., & Schlangen, D. (2023). clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents. [PDF](https://doi.org/10.48550/arXiv.2305.13455)
 
-The paper introduces the clem-bench framework, which is designed to evaluate the performance of chat-optimized LLMs (cLLMs) as conversational agents in interactive game-like settings. The clem-bench framework includes a set of games that are designed to test different aspects of conversational ability, such as understanding and generating natural language responses. It also introduces a leaderboard that tracks the performance of different cLLMs on these games, and discuss the potential applications of the framework.
+There are currently two main paradigms for evaluating LLMs: *reference-based* evaluation looks at the performance at well-defined single-shot tasks like question answering or summarisation; while *preference-based* evaluation asks users to interact with such two such models (each interfaced as a potentially multi-turn chatbot) in parallel, judging which one "performs better".
 
-The paper describes the design and implementation of the clem-bench framework in detail, including the development of the games and the methods used to evaluate the performance of the cLLMs. It also provides a thorough analysis of the results of experiments that evaluate the performance of several cLLMs on the games included in the clem-bench framework.
+We propose a complementary way of evaluation which combines the control (and reproducibility that comes from automation) that reference-based evaluation offers with the interactivity challenged in chatbot-type preferential evaluation. This is achieved through *gameplay* in well-defined conversational / dialogue games. We have implemented a set of games (such as Wordle or Taboo, or games where one player must formulate descriptions of what to do to another player) which current models can play *in self-play*. These games come with metrics that measure the quality of the game play. Together, across the set of games, we can calculate an overal score per model (what we call the *clemscore*) which serves as an indicator of how well the model can follow fine-grained instructions and how well it can simulate goal-directed conversational behaviour.
 
-The experiments reveal that the cLLMs perform well on some tasks, such as image description and question answering, but struggle with others, such as engaging in open-ended conversation. The results of the experiments reveal areas where the cLLMs could be improved, such as their ability to generate more diverse and contextually appropriate responses.
+The framework for implementing such games and for running the overall benchmark [is described in the code repo](https://github.com/clembench/clembench). The implemented games that form the current version of the *clembench* are described in the paper. Here, you can find the results of running the collection of games that forms the current version of the *clembench* against the list of models shown below. 
 
-The paper concludes by discussing the potential implications of the clem-bench framework for the development of conversational agents. The authors argue that the framework has the potential to help improve the quality and effectiveness of conversational agents, and to promote transparency and accountability in their development. They also suggest several important next steps for the development of conversational agents, including testing the models' abilities to handle more complex and nuanced dialogue.
 
 # CLEMs (Chat-Optimized LLMs) Evaluated
 
@@ -30,7 +29,7 @@ The paper concludes by discussing the potential implications of the clem-bench f
 
 The evaluated models with the details about
 number of parameters in billions, trained data size
-(tokens) in billions, and whether they were instruction tuned. Y: yes, n/a: publicly not available.
+(tokens) in billions (to the extent that this is known).
 
 # Interaction Settings in the Current Version
 
