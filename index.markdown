@@ -29,6 +29,8 @@ The framework for implementing such games and for running the overall benchmark 
 
 We plan to continuously update the leaderboard with new models; and the benchmark with additional games. (Last update: *2023-11-20*; models added.)
 
+
+<!--
 # CLEMs (Chat-Optimized LLMs) Evaluated
 
 {% include_relative _posts/output_markdowns/models.md %}
@@ -36,6 +38,9 @@ We plan to continuously update the leaderboard with new models; and the benchmar
 The evaluated models with the details about
 number of parameters in billions, trained data size
 (tokens) in billions (to the extent that this is known).
+-->
+
+
 
 # Interaction Settings in the Current Version
 
