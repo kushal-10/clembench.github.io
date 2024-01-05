@@ -13,7 +13,7 @@ Since we have released the first version of our framework (May 22nd 2023, on the
 
 - Qiao et al., "GameEval: Evaluating LLMs on Conversational Games" (2023-08-19); <https://arxiv.org/abs/2308.10032>
 
-- Li et al., "Beyond Static Datasets: A Depp Interaction Approach to LLM Evaluation" (2023-09-08); <https://arxiv.org/abs/2309.04369>
+- Li et al., "Beyond Static Datasets: A Deep Interaction Approach to LLM Evaluation" (2023-09-08); <https://arxiv.org/abs/2309.04369>
 
 - Gong et al., "MindAgent: Emergent Gaming Interaction" (2023-09-18); <https://arxiv.org/abs/2309.09971>
 
