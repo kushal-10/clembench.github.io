@@ -6,12 +6,14 @@ title: Related
 
 ### Related Work
 
-Since we have released the first version of our framework (May 22nd 2023), we have become aware of several other projects that follow similar ideas (evaluate / explore LLMs through setting up self-play). We list those here. (If you want your project to be listed as well, get in touch!)
+Since we have released the first version of our framework (May 22nd 2023, on the ArXiv at <https://arxiv.org/abs/2305.13455>), we have become aware of several other projects that develop similar ideas (evaluate / explore LLMs through setting up self-play). We list those here. (If you want your project to be listed as well, get in touch!)
 
 
 #### Game / Multi-Agent Frameworks for Evaluation
 
 - Qiao et al., "GameEval: Evaluating LLMs on Conversational Games" (2023-08-19); <https://arxiv.org/abs/2308.10032>
+
+- Li et al., "Beyond Static Datasets: A Depp Interaction Approach to LLM Evaluation" (2023-09-08); <https://arxiv.org/abs/2309.04369>
 
 - Gong et al., "MindAgent: Emergent Gaming Interaction" (2023-09-18); <https://arxiv.org/abs/2309.09971>
 
