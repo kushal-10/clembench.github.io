@@ -23,9 +23,16 @@
     width: 140%; /* Set the width to 140% of the container */
     margin-left: -20%; /* Negative margin to center the container */
     margin-right: auto;
-    padding-top: 95.24%; /* Maintain aspect ratio based on original size */
+    padding-top: 50%; /* Maintain aspect ratio based on original size */
     text-align: center;
     left: 0; /* Ensure it aligns from the left edge */
+    min-width: 300px;
+    min-height: 600px;
+    
+
+    @media (max-width: 600px) { 
+        margin-top: 20%; /* Add top margin to avoid embed overlay on the option list*/
+    }
 }
 
 .iframe-container iframe {
@@ -42,9 +49,11 @@
 .iframe-video {
     text-align: center;
     position: relative;
-    width: 75%; 
+    width: 90%; 
     margin: 0 auto; 
-    padding-top: 56.25%; 
+    padding-top: auto; 
+    min-width: 300px;
+    min-height: 600px;
 }
 
 .iframe-video iframe {
