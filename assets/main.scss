@@ -113,5 +113,43 @@ body.leaderboard-page .footer-col {
     align-self: center;
 }
 
+// For 4K resolution
+
+@media screen and (min-width: 3840px) {
+    .iframe-container {
+        position: absolute;
+        width: 50%;
+        height: 40%; 
+        margin-left: 20%;
+        margin-top: 15%;
+        z-index: 1; // For nav-bar overlay 
+    }
+    
+    .iframe-container iframe {
+        position: relative;
+        transform: scale(2.2);
+        width: 100%; 
+        height: 100%; 
+    }
+}
+
+@media screen and (min-width: 2160px) and (max-width: 3839px) {
+    .iframe-container {
+        position: absolute;
+        width: 50%;
+        height: 40%; 
+        margin-left: 20%;
+        margin-top: 35%;
+        z-index: 1; // For nav-bar overlay 
+    }
+    
+    .iframe-container iframe {
+        position: relative;
+        transform: scale(2);
+        width: 100%; 
+        height: 100%; 
+    }
+}
+
 
 
