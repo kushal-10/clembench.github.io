@@ -9,17 +9,28 @@
 .post-content,
 .main,
 .wrapper {
-    max-width: 100%; 
-    width: 75%; 
+    max-width: 95%; 
+    width: 100%;
     margin-left: auto; 
     margin-right: auto; 
 }
 
 ////////////////////////////// Base styles irrespective of resolution /////////////////////////////
+body.leaderboard-page .footer-col {
+    display: none;
+}
+
+// Handle nav bar overlay
+.site-nav {
+    z-index: 999;
+}
+
 .iframe-container {
     position: absolute;
     width: 100%;
-    height: 100%; 
+    height: 89%; 
+    margin-left: -5%;
+    z-index: 1; // For nav-bar overlay 
 }
 
 .iframe-container iframe {
@@ -32,11 +43,12 @@
 .iframe-video {
     text-align: center;
     position: relative;
-    width: 90%; 
+    width: 100%; 
     margin: 0 auto; 
     padding-top: auto; 
     min-width: 300px;
-    min-height: 600px;
+    min-height: 500px;
+    z-index: 2; // For nav-bar overlay 
 }
 
 .iframe-video iframe {
@@ -65,125 +77,41 @@
 }
 
 .table-container {
-    overflow-x: auto; /* Enable horizontal scrolling if the table is wider than the container */
+    width: 99%;
+    align-self: center;
+    overflow-x: auto; 
 }
 
 /* Optional: Set table width to 100% to ensure it occupies the full width */
 .table-container table {
     width: 100%;
-    border-collapse: collapse; /* Optional: collapse table borders */
 }
 
 .table-container td {
-    border: 1px solid black; /* Add border to all cells */
+    border: 1px solid black;
 }
 .table-container th {
-    border: 1px solid black; /* Add border to all cells */
+    border: 1px solid black; 
+}
+
+.contibutors td {
+    border: 1px solid black; 
+}
+.contibutors th {
+    border: 1px solid black; 
 }
 
 
 .contibutors {
-    overflow-x: auto; /* Enable horizontal scrolling if the table is wider than the container */
-    overflow-y: hidden;
-}
-
-/* Optional: Set table width to 100% to ensure it occupies the full width */
-.contributors table {
     width: 80%;
+    align-self: center;
+    overflow-x: auto; 
 }
 
-
-
-///////////////////////////////////////////// For mobile resolution //////////////////////////////////////////
-@media (max-width: 449px) {
-
-    .wrapper {
-        width: 90%; 
-    }
-
-    .iframe-container {
-        position: absolute;
-        width: 100%;
-        height: 80%; 
-        margin-left: -17%; 
-        z-index: 1; // For nav-bar overlay 
-    }
-
-    .iframe-container iframe {
-        position: relative;
-        width: 100%; 
-        height: 100%; 
-    }
-
-    body.leaderboard-page .footer-col {
-        display: none;
-    }
-
-    body.leaderboard-page .custom-text{
-        display: none;
-    }
-
-    //Handle nav bar overlay
-    .site-nav {
-        z-index: 999;
-    }
-
-    .table-container {
-        overflow-x: auto; /* Enable horizontal scrolling if the table is wider than the container */
-        overflow-y: hidden;
-    }
-    
-    /* Optional: Set table width to 100% to ensure it occupies the full width */
-    .table-container table {
-        width: 100%;
-    }
-
-    .contibutors {
-        overflow-x: auto; 
-    }
-
-    .contributors table {
-        margin-left: -15%;
-    }
-    
-    
+.contributors table {
+    width: 100%;
+    align-self: center;
 }
 
-/////////////////////////////////// For Laptop Resolution ////////////////////////////////////////
-@media (min-width: 1051px) and (max-width: 2000px) {
-    .wrapper {
-        width: 90%; 
-    }
-
-    .iframe-container {
-        position: absolute;
-        width: 100%;
-        height: 80%; 
-        margin-bottom: 100%;
-        margin-left: -16.5%; 
-    }
-
-    .iframe-container iframe {
-        position: relative;
-        width: 100%; 
-        height: 100%; 
-    }
-
-    body.leaderboard-page .footer-col {
-        display: none;
-    }
-
-
-
-    .contibutors {
-        width: 100%;
-    }
-
-    .contributors table {
-        width: 100%;
-    }
-
-    
-}
 
 
