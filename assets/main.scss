@@ -9,7 +9,7 @@
 .post-content,
 .main,
 .wrapper {
-    max-width: 95%; 
+    max-width: 70%; 
     width: 100%;
     margin-left: auto; 
     margin-right: auto; 
@@ -27,9 +27,10 @@ body.leaderboard-page .footer-col {
 
 .iframe-container {
     position: absolute;
-    width: 100%;
+    max-width: 100%;
+    width: 99%;
     height: 89%; 
-    margin-left: -5%;
+    margin-left: -25%;
     z-index: 1; // For nav-bar overlay 
 }
 
@@ -82,7 +83,7 @@ body.leaderboard-page .footer-col {
     overflow-x: auto; 
 }
 
-/* Optional: Set table width to 100% to ensure it occupies the full width */
+
 .table-container table {
     width: 100%;
 }
