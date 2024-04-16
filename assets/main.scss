@@ -114,6 +114,34 @@ body.leaderboard-page .footer-col {
     align-self: center;
 }
 
+// For mobile and tablet resolutions (>=375, <=1024 width)
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+
+    // Set full width on mobile screens
+    .page-content,
+    .post-content,
+    .main,
+    .wrapper {
+        max-width: 95%; 
+        width: 100%;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .iframe-container {
+        position: absolute;
+        width: 100%;
+        height: 90%; 
+        padding-left: auto;
+        margin-left: -7%;
+        padding-top: auto;
+        margin-top: auto;
+        z-index: 1; // For nav-bar overlay 
+    }
+ 
+
+}
+
 // For 4K resolution
 
 @media screen and (min-width: 3840px) {
