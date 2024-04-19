@@ -5,9 +5,9 @@ title: Leaderboard
 
 <body class="leaderboard-page">
 <div class="iframe-container">
-    <iframe 
-		src="https://colab-potsdam-clem-leaderboard.hf.space" 
-		frameborder="0">
+    <iframe
+	src="https://koshti10-leaderboard.hf.space"
+	frameborder="0">
 	</iframe>
 </div>
 
