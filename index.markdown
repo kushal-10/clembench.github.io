@@ -16,6 +16,8 @@ categories: jekyll update -->
 
 > Chalamalasetti, K., Götze, J., Hakimov, S., Madureira, B., Sadler, P., & Schlangen, D. (2023). clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents. In Proceedings of EMNLP 2023. [PDF](https://aclanthology.org/2023.emnlp-main.689.pdf) DOI: [10.18653/v1/2023.emnlp-main.689](https://www.doi.org/10.18653/v1/2023.emnlp-main.689)
 
+> Beyer, A., Chalamalasetti, K., Hakimov, S., Madureira, B., Sadler, P., & Schlangen, D. (2024). clembench-2024: A Challenging, Dynamic, Complementary, Multilingual Benchmark and Underlying Flexible Framework for LLMs as Multi-Action Agents. [arXiv preprint arXiv:2405.20859](https://arxiv.org/abs/2405.20859)
+
 
 <div class='iframe-video'>
     <iframe 
@@ -33,7 +35,7 @@ We propose **a complementary way of evaluating LLMs** which combines the control
 
 The framework for implementing such games and for running the overall benchmark [is described in the code repo](https://github.com/clembench/clembench). The implemented games that form the current version of the *clembench* are described in the paper. Here, you can find the results of running the collection of games that forms the current version of the *clembench* against the list of models shown below. 
 
-We plan to continuously update the leaderboard with new models; and the benchmark with additional games. (Last update: *2023-11-20*; models added.)
+We are continuously updating the leaderboard with new models; and, less often, the benchmark with additional games. Check back often to see the latest version.
 
 
 <!--
