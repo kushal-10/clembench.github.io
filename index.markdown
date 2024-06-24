@@ -18,6 +18,9 @@ categories: jekyll update -->
 
 > Beyer, A., Chalamalasetti, K., Hakimov, S., Madureira, B., Sadler, P., & Schlangen, D. (2024). clembench-2024: A Challenging, Dynamic, Complementary, Multilingual Benchmark and Underlying Flexible Framework for LLMs as Multi-Action Agents. [arXiv preprint arXiv:2405.20859](https://arxiv.org/abs/2405.20859)
 
+> Hakimov, S., Abdullayeva, Y., Koshti, K., Schmidt, A., Weiser, Y., Beyer, A., & Schlangen. D. (2024). Two Giraffes in a Dirt Field: Using Game Play to Investigate Situation Modelling in Large Multimodal Models. [arXiv preprint arXiv:2406.14035](https://arxiv.org/abs/2406.14035)
+
+> Bhavsar, N., Jordan, J., Hakimov, S., & Schlangen. D. (2024). How Many Parameters Does it Take to Change a Light Bulb? Evaluating Performance in Self-Play of Conversational Games as a Function of Model Characteristics [arXiv preprint arXiv:2406.14051](https://arxiv.org/abs/2406.14051)
 
 <div class='iframe-video'>
     <iframe 
