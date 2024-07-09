@@ -22,7 +22,7 @@ If you want to contribute, get in touch!
         </thead>
         <tbody>
             <tr style="text-align: center;">
-                <td><a href="https://sherzod-hakimov.github.io/">Sherzod Hakimov</a><br>project management; game design<br>[Postdoc @ Uni Potsdam]</td>
+                <td><a href="https://sherzod-hakimov.github.io/">Sherzod Hakimov</a><br>project management; game design; backends for commercial models<br>[Postdoc @ Uni Potsdam]</td>
                 <td><a href="https://www.ling.uni-potsdam.de/~das/">David Schlangen</a><br>project management; spiritual guidance<br>[Prof @ Uni Potsdam]</td>
                 <td>Jana Götze<br>game design; slurk interface<br>[Postdoc Alumna @ Uni Potsdam]</td>
             </tr>
@@ -33,8 +33,13 @@ If you want to contribute, get in touch!
             </tr>
             <tr style="text-align: center;">
                 <td>Jonathan Jordan<br>backends for "open" models<br>[MSc Student @ Uni Potsdam]</td>
-                <td>Kushal Koshti<br>website<br>[MSc Student @ Uni Potsdam]</td>
-                <td></td>
+                <td>Kushal Koshti<br>website; backends for multimodal "open" models<br>[MSc Student @ Uni Potsdam]</td>
+                <td>Antonia Schmidt<br>game design<br>[MSc Student @ Uni Potsdam]</td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>Yan Weiser<br>game design<br>[MSc Student @ Uni Potsdam]</td>
+                <td>Yerkezhan Abdullayeva<br>game design<br>[MSc Student @ Uni Potsdam]</td>
+                <td>Lara Pfennigschmidt<br>game design<br>[MSc Student @ Uni Potsdam]</td>
             </tr>
         </tbody>
     </table>
