@@ -32,14 +32,19 @@ If you want to contribute, get in touch!
                 <td><a href="https://www.ling.uni-potsdam.de/~madureiralasota/">Brielen Madureira</a><br>game design; evaluation<br>[PhD Student @ Uni Potsdam]</td>
             </tr>
             <tr style="text-align: center;">
+                <td>Anne Beyer<br>game design; framework design<br>[PhD Student @ Uni Potsdam]</td>
                 <td>Jonathan Jordan<br>backends for "open" models<br>[MSc Student @ Uni Potsdam]</td>
                 <td>Kushal Koshti<br>website; backends for multimodal "open" models<br>[MSc Student @ Uni Potsdam]</td>
+            </tr>
+            <tr style="text-align: center;">
+				<td>Yan Weiser<br>game design<br>[MSc Student @ Uni Potsdam]</td>
+                <td>Yerkezhan Abdullayeva<br>game design<br>[MSc Student @ Uni Potsdam]</td>
                 <td>Antonia Schmidt<br>game design<br>[MSc Student @ Uni Potsdam]</td>
             </tr>
             <tr style="text-align: center;">
-                <td>Yan Weiser<br>game design<br>[MSc Student @ Uni Potsdam]</td>
-                <td>Yerkezhan Abdullayeva<br>game design<br>[MSc Student @ Uni Potsdam]</td>
                 <td>Lara Pfennigschmidt<br>game design<br>[MSc Student @ Uni Potsdam]</td>
+                <td></td>
+                <td></td>
             </tr>
         </tbody>
     </table>
